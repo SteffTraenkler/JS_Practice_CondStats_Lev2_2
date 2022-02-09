@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/Styles/main.css">
+</head>
+
+<body>
+    <div>
+        <p>AQE: <span id="aqeValue"></span></p>
+        <form action="#">
+            <input type="range" name="range" id="rangeAir" min="0" max="150" onchange="checkAirQuality()">
+        </form>
+        <h1>Level of health concern:<span id="hConcern"></span></h1>
+        <h1>Level of health effect:<span id="hEffect"></span></h1>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+body {
+  display: grid;
+  height: 100vh;
+  place-content: center;
+}
+
+div {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(172, 166, 166, 0.616);
+  border-radius: 10px;
+  padding: 2% 10%;
+}
+
+div p {
+  text-align: start;
+  font-weight: 900;
+}
+
+input {
+  width: 500px;
+}/*# sourceMappingURL=main.css.map */
